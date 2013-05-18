@@ -7,11 +7,8 @@
 (context 'NewlispErrorCodes)
 
 ; TODO should I build this programmatically using uppercase characters from context name?
-; Note: sym is necessary to avoid: "ERR: symbol not in current context in function constant : prefix"
-(constant (sym "prefix") "NEC") ; to build constants from different contexts all under context "Constants"
+(constant 'context-prefix "NEC") ; to build constants from different contexts all under context "Constants"
 
-; every module listing codes must have a "codes" symbol with a list with the following format:
-; ((value "description") [...])
 (setq codes '(
 	(1 "not enough memory")
 	(2 "environment stack overflow")

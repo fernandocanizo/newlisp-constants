@@ -7,7 +7,7 @@
 
 (context 'SysErrorCodes)
 
-(constant (sym "prefix") "SEC") ; to build constants from different contexts all under context "Constants"
+(constant 'context-prefix "SEC") ; to build constants from different contexts all under context "Constants"
 
 ;; System error codes are system dependant, so we cannot build a predefined list, must be built programmatically
 ;; and the building is made using the code "Unknown error" as a stopper. Anyway, check note at the end.

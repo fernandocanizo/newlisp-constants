@@ -7,7 +7,7 @@
 
 (context 'NetErrorCodes)
 
-(constant (sym "prefix") "NET")
+(constant 'context-prefix "NET")
 
 (setq codes '(
 	(1 "Cannot open socket")

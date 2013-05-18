@@ -39,8 +39,8 @@ Module Creation:
 
 To add new modules just create a file with the same name as the context you will
 use. And inside it create a "codes" symbol holding a list of value/description
-lists and a "prefix" symbol holding the prefix you will want to use for the
-prefixed case.
+lists and a "context-prefix" symbol holding the prefix you will want to use for
+the prefixed case.
 
 Example template:
 
@@ -49,8 +49,7 @@ Example template:
 
 (context 'ExampleFooBar)
 
-; it's important to define prefix like this:
-(constant (sym "prefix") "SEC")
+(constant 'context-prefix "EFB")
 
 (setq codes '(
 	(0 "value 0")

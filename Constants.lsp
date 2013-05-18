@@ -57,7 +57,7 @@
 
 		; else USE_PREFIXES
 		(begin
-			(let (constant-name (string (eval-string (string a-context ":" "prefix")) "_" str-name))
+			(let (constant-name (string (eval-string (string a-context ":" "context-prefix")) "_" str-name))
 				(if (not (legal? constant-name))
 					(throw-error (string "constant-name should be a legal name for making a symbol. Offending string:\n" constant-name)))
 
