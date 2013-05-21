@@ -4,6 +4,9 @@
 ;; @module RegExpOptions
 ;; @description PCRE options for the lazy programmer
 
+;; @notes
+;; options used by: directory, ends-with, find, find-all, member, parse, regex,
+;; regex-comp, replace, search, starts-with
 
 (context 'RegExpOptions)
 

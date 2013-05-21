@@ -4,6 +4,9 @@
 ;; @module XmlParseOptions
 ;; @description xml-parse options for the lazy programmer
 
+;; @notes
+;; options used by: xml-parse
+
 (context 'XmlParseOptions)
 
 (constant 'content-prefix "XPO")
